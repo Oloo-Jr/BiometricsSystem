@@ -1,9 +1,43 @@
-import React from 'react'
+import React from 'react';
+import {
+  Company,
+  Blues,
+  StyledTitle,
+  CopyrightText
+} from '../Components/style';
 
-const Login = () => {
+export const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <>
+      <Company width={50}>
+        <StyledTitle size={48}>
+          COMPANY NAME
+        </StyledTitle>
+        <CopyrightText>
+          SLOGAN
+        </CopyrightText>
+      </Company>
+      <Blues>
+        <form>
+          <label>USERNAME
+            <input 
+              // type={text}
+              // value={}
+              // onChange={(e) => set(e.target.value)}
+              placeholder="USERNAME"
+            />
+          </label>
 
-export default Login;
+          <label>PASSWORD
+            <input 
+              // type={password}
+              // value={}
+              // onChange={(e) => set(e.target.value)}
+              placeholder="PASSWORD"
+            />
+          </label>
+        </form>
+      </Blues>
+    </>
+  );
+};

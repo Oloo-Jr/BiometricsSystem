@@ -101,7 +101,7 @@ setOriginality('');
       </Company>
       <Blues>
         <form onSubmit={handleSave}>
-          <label>First Name:
+          <label>FIRST NAME:
             <input 
               type="text" 
               value={Fname}
@@ -110,7 +110,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Middle Name:
+          <label>MIDDLE NAME:
             <input 
               type="text" 
               value={Mname}
@@ -119,7 +119,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Surname:
+          <label>SURNAME:
             <input 
               type="text" 
               value={Sname}
@@ -128,7 +128,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Date Of Birth:
+          <label>DATE OF BIRTH:
             <input 
               type="date" 
               value={dateOfBirth}
@@ -136,7 +136,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Gender:
+          <label>GENDER:
             <input 
               type="text" 
               value={gender}
@@ -145,7 +145,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Ethnicity:
+          <label>ETHNICITY:
             <input 
               type="text" 
               value={ethnicity}
@@ -154,7 +154,7 @@ setOriginality('');
             />
           </label>
 
-          <label>County:
+          <label>COUNTY:
             <input 
               type="text" 
               value={county}
@@ -163,7 +163,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Constituency:
+          <label>CONSTITUENCY:
             <input 
               type="text" 
               value={constituency}
@@ -172,7 +172,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Ward:
+          <label>WARD:
             <input 
               type="text" 
               value={ward}
@@ -181,7 +181,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Occupation:
+          <label>OCCUPATION:
             <input 
               type="text" 
               value={occupation}
@@ -190,7 +190,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Residence:
+          <label>RESIDENCE:
             <input 
               type="text" 
               value={residence}
@@ -199,7 +199,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Marital Status:
+          <label>MARITAL STATUS:
             <input 
               type="text" 
               value={maritalStatus}
@@ -208,7 +208,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Number of Children:
+          <label>NUMBER OF CHILDREN:
             <input 
               type="number" 
               value={numOfChildren}
@@ -216,7 +216,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Disability:
+          <label>DISABILITY:
             <input 
               type="text" 
               value={disability}
@@ -225,7 +225,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Nationality:
+          <label>NATIONALITY:
             <input 
               type="text" 
               value={nationality}
@@ -234,7 +234,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Education Standard:
+          <label>EDUCATION STANDARD:
             <input
               type="text"
               value={education}
@@ -243,7 +243,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Single Parent:
+          <label>SINGLE PARENT:
             <input
               type="text"
               value={singleParent}
@@ -251,7 +251,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Widow:
+          <label>WIDOW:
             <input
               type="text"
               value={widow}
@@ -260,7 +260,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Nation Of Originality:
+          <label>NATION OF ORIGINALITY:
             <input
               type="text"
               value={originality}
@@ -268,7 +268,7 @@ setOriginality('');
             />
           </label>
 
-          <label>Age Of Individual Child:
+          <label>AGE OF INDIVIDUAL CHILD:
             <input
               type="number"
               value={ageIndividualChild}
