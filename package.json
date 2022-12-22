@@ -1,5 +1,6 @@
 {
   "name": "bio-system",
+  "homepage": "https://register.tthumanrightsnetwork.co.ke",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -9,8 +9,8 @@ function App() {
     <Router>
       <StyledContainer>
         <Routes>
-          <Route path='/entry' element={<Registration />} />
-          <Route path='/' element={<Login />} />
+          <Route path='/' element={<Registration />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </StyledContainer>
     </Router>

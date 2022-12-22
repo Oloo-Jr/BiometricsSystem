@@ -17,7 +17,12 @@ export const citizenInfo = (
   maritalStatus,
   numOfChildren,
   disability,
-  nationality
+  nationality,
+  singleParent,
+  widow,
+  education,
+  originality,
+  ageIndividualChild
   ) => {
     return db.collection("Citizens").doc(serialNumber).set({
         Fname,
@@ -34,7 +39,12 @@ export const citizenInfo = (
         maritalStatus,
         numOfChildren,
         disability,
-        nationality
+        nationality,
+        singleParent,
+        widow,
+        education,
+        originality,
+        ageIndividualChild
       })
       .then(() => {
         console.log("Document successfully written!");

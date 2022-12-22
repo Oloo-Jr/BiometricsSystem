@@ -15,16 +15,18 @@ export const colors = {
 
 export const StyledContainer = styled.div `
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     flexDirection: row;
-    justify-content: center;
-    align-items: center;
     background-color: #e2e3ea;
     font-family: 'Mulish', sans-serif;
+    justify - content: center;
+    align - items: center;
 `;
 
 export const Company = styled.div `
-    min-height: 100vh;
+    height: 100vh;
     width: ${(props) => props.width}%;
     left: 0px;
     top: 0px;
@@ -32,10 +34,13 @@ export const Company = styled.div `
 `;
 
 export const Blues = styled.div `
-    max-height: 100vh;
+    height: 100vh;
     width: 70%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
 `;
 
 export const StyledTitle = styled.h2 `
