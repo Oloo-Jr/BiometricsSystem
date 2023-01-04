@@ -1,7 +1,7 @@
 import db from './config';
 
 
-export const citizenInfo = (
+export const citizenInfo = async (
   serialNumber,
   Fname,
   Mname,
@@ -24,32 +24,31 @@ export const citizenInfo = (
   originality,
   ageIndividualChild
   ) => {
-    return db.collection("Citizens").doc(serialNumber).set({
-        Fname,
-        Mname,
-        Sname,
-        dateOfBirth,
-        gender,
-        ethnicity,
-        county,
-        constituency,
-        ward,
-        occupation,
-        residence,
-        maritalStatus,
-        numOfChildren,
-        disability,
-        nationality,
-        singleParent,
-        widow,
-        education,
-        originality,
-        ageIndividualChild
-      })
-      .then(() => {
-        console.log("Document successfully written!");
-      })
-      .catch((error) => {
-        console.error("Error writing document: ", error);
-      });
+    try {
+    await db.collection("Citizens").doc(serialNumber).set({
+      Fname,
+      Mname,
+      Sname,
+      dateOfBirth,
+      gender,
+      ethnicity,
+      county,
+      constituency,
+      ward,
+      occupation,
+      residence,
+      maritalStatus,
+      numOfChildren,
+      disability,
+      nationality,
+      singleParent,
+      widow,
+      education,
+      originality,
+      ageIndividualChild
+    });
+    console.log("Document successfully written!");
+  } catch (error) {
+    console.error("Error writing document: ", error);
+  }
 }
