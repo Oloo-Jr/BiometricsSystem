@@ -3,8 +3,10 @@ import {
   Company,
   Blues,
   StyledTitle,
-  CopyrightText
+  CopyrightText,
+  StyledFormButton
 } from '../Components/style';
+import { Link } from 'react-router-dom';
 
 export const Login = () => {
   return (
@@ -36,6 +38,13 @@ export const Login = () => {
               placeholder="PASSWORD"
             />
           </label>
+
+          <Link to='/search'>
+            <StyledFormButton>
+              Login
+            </StyledFormButton>
+          </Link>
+
         </form>
       </Blues>
     </>

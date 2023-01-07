@@ -1,54 +1,11 @@
-import React, {useState, useEffect, Component} from "react";
-// import { Blues, Company, CopyrightText, StyledTitle } from "../Components/style";
-// import db from "../Database/config";
-// import firebase from "firebase/app";
-// import "firebase/firestore";
-
+import React, { Component } from "react";
 import Table from "react-bootstrap/Table";
-
-
-// export const Search = () => {
-//     const [citizens, setCitizens] = useState([]);
-//     const citizensRef = db.collection("Citizens");
-
-//     useEffect(() => {
-//         const getCitizens = async () => {
-//             const data = citizensRef.doc;
-//             setCitizens(data.docs.map((doc) => ({...doc.data(), id:doc.id})));
-//         }
-
-//         getCitizens()
-//     }, [])
-//     return (
-//         <>
-//             <Company width={30}>
-//                 <StyledTitle>
-//                     COMPANY
-//                 </StyledTitle>
-//                 <CopyrightText>
-//                     SLOGAN
-//                 </CopyrightText>
-//             </Company>
-//             <Blues>
-//                 <div>
-//                     {citizens.map((citizen) => {
-//                         return (
-//                             <div>
-//                                 {""}
-//                                 <h1>Name: {citizen.Fname}</h1>
-//                             </div>
-//                         )
-//                     })}
-//                 </div>
-//             </Blues>
-//         </>
-//     );
-// };
+import './style.css'
 
 export const Search = () => {
     return(
-        <div>
-            <Table>
+        <div className="table">
+            <table>
                 <thead>
                     <tr>
                         <th>First Name</th>
@@ -66,10 +23,34 @@ export const Search = () => {
                         <th>Number Of Children</th>
                         <th>Disability</th>
                         <th>Nationality</th>
+                        <th>Education Standard</th>
+                        <th>Single Parent</th>
+                        <th>Nation of originality</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
-            </Table>
+                <tbody>
+                    <tr>
+                        <td>Peter</td>
+                        <td>Max</td>
+                        <td>Polen</td>
+                        <td>12/21/1999</td>
+                        <td>Male</td>
+                        <td>African</td>
+                        <td>Nairobi</td>
+                        <td>Westlands</td>
+                        <td>Kangemi</td>
+                        <td>Lawyer</td>
+                        <td>Kenya</td>
+                        <td>Single</td>
+                        <td>0</td>
+                        <td>None</td>
+                        <td>Kenyan</td>
+                        <td>Masters</td>
+                        <td>No</td>
+                        <td>Kenya</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    );
+    )
 };

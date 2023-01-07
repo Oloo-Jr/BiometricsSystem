@@ -20,7 +20,7 @@ function App() {
             <Route path='/login' element={<Login />} />
             <Route path='/search' element={<Search />} />
             <Route path='/view' element={<View />} />
-            <Route path='/Pic' element={<Pic />} />
+            <Route path='/pic' element={<Pic />} />
           </Routes>
         </StyledContainer>
       </Router>

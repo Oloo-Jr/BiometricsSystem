@@ -129,5 +129,21 @@ export const StyledFormArea = styled.div `
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px;0
+`;
+
+export const Text = styled.p `
+    font-style: normal;
+    text-transform: capitalize;
+`;
+
+export const Label = styled.label `
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase:
+    color: #5f5f5f;
+    padding-left: 10px;
+    font-weight: 2000;
 `;

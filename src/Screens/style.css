@@ -1,16 +1,24 @@
+.view {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
 label{
     font-family: Mulish;
-    font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
     color: #5f5f5f;
     padding-left: 10px;
     padding: 10px;
+    font-style: normal;
+    font-weight: 2000;
 }
 
-input {
+input{
     padding: 10px;
     border: 1px solid #f0f1f7;;
     border-radius: 8px;
@@ -22,4 +30,33 @@ input {
     color: #4b5060;
     opacity: 0.4;
     background: #fcfdfe;
+    text-transform: capitalize;
+}
+
+p{
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.table {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 2px solid forestgreen;
+    /* width: 800px; */
+}
+
+th {
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+}
+
+td {
+    text-align: center;
 }
