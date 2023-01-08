@@ -107,15 +107,15 @@ export const StyledFormButton = styled.button `
     padding: 10px;
     background: #007e94;
     border: 2px solid;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #ffffff;
-    width: 342.33px;
+    width: 300px;
     height: 34px;
     top: 912px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -146,4 +146,8 @@ export const Label = styled.label `
     color: #5f5f5f;
     padding-left: 10px;
     font-weight: 2000;
+`;
+
+export const Test = styled.div `
+    padding: 5px;
 `;

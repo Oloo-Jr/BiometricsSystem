@@ -1,5 +1,5 @@
 import React from "react";
-import { Blues, Company, CopyrightText, StyledTitle, Label, ButtonGroup, StyledFormArea} from "../Components/style";
+import { Blues, Company, CopyrightText, StyledTitle, Label, ButtonGroup, StyledFormArea, Test, StyledButton, StyledFormButton} from "../Components/style";
 import Table from "react-bootstrap/Table"
 import { Button } from "react-bootstrap";
 import { Tp } from "../Components/State";
@@ -24,64 +24,130 @@ export const View = () => {
             <Blues>
                 <>
                     <div className="view">
-                        <div>
-                            <Label>First Name: 
-                                <p>Peter</p>
-                            </Label>
-                            <Label>Middle Name: 
-                                <p>Okello</p>
-                            </Label>
-                            <Label>Surname: 
-                                <p>Maxwel</p>
-                            </Label>
-                            <Label>Date OF Birth: 
-                                <p>21/12/1999</p>
-                            </Label>
-                            <Label>Gender: 
-                                <p>Male</p>
-                            </Label>
-                            <Label>Ethnicity: 
-                                <p>African</p>
-                            </Label>
-                            <Label>County: 
-                                <p>Nairobi</p>
-                            </Label>
-                            <Label>Constituency: 
-                                <p>Westlands</p>
-                            </Label>
-                            <Label>Ward: 
-                                <p>Kangemi</p>
-                            </Label>
+                        <div className="one"> 
+                            <Test>
+                                <input 
+                                    placeholder="First name"
+                                />
+                            </Test>
+                            <Test>
+                                <input 
+                                    placeholder="Middle Name"
+                                />
+                            </Test>
+                            <Test>
+                                <input 
+                                    placeholder="Surname"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="date of birth"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="Gender"
+                                />
+                            </Test>
+                                                                                    <Test>
+                                <input 
+                                    placeholder="Ethnicity"
+                                />
+                            </Test>
+                                                                                    <Test>
+                                <input 
+                                    placeholder="Number of children"
+                                />
+                            </Test>
+
+                            <Test>
+                                <div><label> Marital Status</label></div>
+                                <div>                                
+                                    <select>
+                                        <option>...</option>
+                                        <option>Single</option>
+                                        <option>Married</option>
+                                        <option>Divorced</option>
+                                        <option>Widow</option>
+                                        <option>Widower</option>
+                                    </select>
+                                </div>
+                            </Test>
+                            <Test className="drop">
+                                <div>
+                                    <label> Disability</label>
+                                </div>
+                                <div>                                
+                                    <select>
+                                        <option>...</option>
+                                        <option>Single</option>
+                                        <option>Married</option>
+                                        <option>Divorced</option>
+                                        <option>Widow</option>
+                                        <option>Widower</option>
+                                    </select> 
+                                </div>
+
+                            </Test>
+                            <Test>
+                                <div>
+                                    <label>EDUCATION STANDARD</label>
+                                </div>
+                                <div>
+                                    <select>
+                                        <option>...</option>
+                                    </select>
+                                </div>div
+                            
+                            </Test>
                         </div>
-                        <div>
-                            <Label>Occupation: 
-                                <p>Lawyer</p>
-                            </Label>
-                            <Label>Residence: 
-                                <p>Kenya</p>
-                            </Label>
-                            <Label>Marital Status: 
-                                <p>Single</p>
-                            </Label>
-                            <Label>Number Of Children: 
-                                <p>0</p>
-                            </Label>
-                            <Label>Disability: 
-                                <p>None</p>
-                            </Label>
-                            <Label>Nationality: 
-                                <p>Kenyan</p>
-                            </Label>
-                            <Label>Education Standard: 
-                                <p>Masters</p>
-                            </Label>
-                            <Label>Single Parent: 
-                                <p>No</p>
-                            </Label>
-                            <Label>Nation Of Originality: 
-                                <p>Kenya</p>
-                            </Label>
-                            <Label></Label>
+                        <div className="two">
+                            <Test>
+                                <input 
+                                    placeholder="Nationality"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="Residence"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="County"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="Constituency"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="Ward"
+                                />
+                            </Test>
+                                                        <Test>
+                                <input 
+                                    placeholder="Occupation"
+                                />
+                            </Test>
+                            <div className="three">
+                                <StyledFormButton>
+                                    Picture
+                                </StyledFormButton>
+                            </div>
+                            <div className="three">
+                                <StyledFormButton>
+                                    Fingerprint
+                                </StyledFormButton>
+                            </div>
+                        </div>
+                        <div className="button">
+                            <StyledFormButton>
+                                Register
+                            </StyledFormButton>
                         </div>
                     </div>
                 </>
