@@ -16,10 +16,10 @@ function App() {
       <Router>
         <StyledContainer>
           <Routes>
-            <Route path='/' element={<Registration />} />
+            <Route path='/' element={<View />} />
             <Route path='/login' element={<Login />} />
             <Route path='/search' element={<Search />} />
-            <Route path='/view' element={<View />} />
+            <Route path='/view' element={<Registration />} />
             <Route path='/pic' element={<Pic />} />
           </Routes>
         </StyledContainer>
