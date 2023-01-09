@@ -9,7 +9,6 @@ import {
   StyledFormArea
 } from '../Components/style';
 import './style.css';
-import '../Components/County.json'
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
