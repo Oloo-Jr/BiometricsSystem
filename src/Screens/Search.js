@@ -4,6 +4,7 @@ import Table from "react-bootstrap/Table";
 import './style.css'
 import { db } from "../Database/config";
 import { all } from "axios";
+import Header from "../Components/Header";
 
 export const Search = () => {
     const [alldata, setData] = useState('')
@@ -32,6 +33,7 @@ export const Search = () => {
 
     return(
         <div className="table">
+            <Header/>
             <table>
                 <thead>
                     <tr>

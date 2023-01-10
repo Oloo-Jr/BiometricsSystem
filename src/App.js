@@ -7,6 +7,8 @@ import { StyledContainer } from './Components/style';
 import './App.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Test } from './Screens/test';
+import { Single } from './Screens/Single';
 // import { AuthProvider } from './Database/auth';
 // import PrivateRoute from './Screens/route';
 
@@ -21,6 +23,8 @@ function App() {
             <Route path='/search' element={<Search />} />
             <Route path='/view' element={<Registration />} />
             <Route path='/pic' element={<Pic />} />
+            <Route path='/test' element={<Test />} />
+            <Route path='/single' element={<Single />} />
           </Routes>
         </StyledContainer>
       </Router>
